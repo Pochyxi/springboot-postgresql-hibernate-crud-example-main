@@ -22,7 +22,7 @@ import net.guides.springboot2.crud.model.Employee;
 import net.guides.springboot2.crud.repository.EmployeeRepository;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
